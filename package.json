@@ -1,0 +1,30 @@
+{
+  "name": "cardano-preprod-preview-utils",
+  "version": "1.0.0",
+  "description": "Cardano preview and preprod for making simple transactions with the goal of putting metadata on the blockchain platform and fetching transaction metadata from Blockfrost",
+  "main": "cardanoModule.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivanterzic/CardanoPreviewPreprodUtils.git"
+  },
+  "keywords": [
+    "cardano",
+    "testnet",
+    "transaction",
+    "metadata",
+    "blockfrost"
+  ],
+  "author": "tim1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivanterzic/CardanoPreviewPreprodUtils/issues"
+  },
+  "homepage": "https://github.com/ivanterzic/CardanoPreviewPreprodUtils#readme", 
+  "dependencies": {
+    "@blockfrost/blockfrost-js": "^5.2.0",
+    "cardanocli-js": "^4.1.4"
+  }
+}
